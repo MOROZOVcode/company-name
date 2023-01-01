@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Raleway:wght@700&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>company name</title>
+  </head>
+
+  <body>
+    <header>
+      <a class="logo-wrapper" href="">
+        <img class="logo" src="resources/logo/logo.png" />
+        <p class="logo-wrapper__name">company name</p>
+      </a>
+
+      <a class="exit" href="">
+        <img src="resources/ico/exit.png" alt="" />
+      </a>
+    </header>
+
+    <div class="main">
+      <div class="nav">
+        <a class="nav__circle activ" href=""></a>
+        <div class="nav__band"></div>
+        <a class="nav__circle" href=""></a>
+        <div class="nav__band"></div>
+        <a class="nav__circle" href=""></a>
+      </div>
+
+      <div class="title-wrapper wrapper">
+        <h1>Registration</h1>
+        <p>
+          Fill in the registration data. It will take a couple of minutes.<br />
+          All you need is a phone number and e-mail
+        </p>
+      </div>
+
+      <div class="privacy-wrapper wrapper">
+        <img src="resources/ico/lock.png" alt="" />
+        <p>
+          We take privacy issues seriously. You can be sure that your personal
+          data is securely protected.
+        </p>
+        <img src="resources/ico/close.png" alt="" />
+      </div>
+
+      <div class="number-wrapper wrapper">
+        <p>Enter your phone number</p>
+        <div class="number-wrapper__enter">
+          <select>
+            <option value="+1">+1</option>
+            <option value="+7">+7</option>
+          </select>
+          <input type="tel" value="555 555-1234" />
+        </div>
+      </div>
+
+      <button class="btn-send">Send code</button>
+    </div>
+  </body>
+</html>

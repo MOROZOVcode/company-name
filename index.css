@@ -1,0 +1,223 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 44px 44px 44px 88px;
+}
+
+.wrapper {
+    margin-bottom: 32px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo-wrapper {
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.logo-wrapper__name {
+    font-family: 'Raleway';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #242731;
+}
+
+.exit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 456px;
+    margin-left: 128px;
+    margin-top: -21px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #B9B9C4;
+}
+
+.nav__circle.activ {
+    background: #007AFF;
+}
+
+.nav__band {
+    width: 40px;
+    border: 1px solid #B9B9C4;
+    margin: 0 8px 0 8px;
+}
+
+.title-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 80px;
+}
+
+h1 {
+    font-family: 'Poppins';
+    line-height: 36px;
+    color: #242731;
+}
+
+
+.title-wrapper>p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    line-height: 22px;
+    color: #575F6E;
+}
+
+.privacy-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 16px;
+    background: #F0F2F4;
+    border-radius: 8px;
+}
+
+.privacy-wrapper>p {
+    width: 344px;
+    font-family: 'Poppins';
+    font-size: 13px;
+    line-height: 18px;
+    color: #242426;
+}
+
+.privacy-wrapper>img:last-child {
+    cursor: pointer;
+}
+
+.number-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 32px;
+    border: 1px solid #E2E4E5;
+    border-radius: 8px;
+}
+
+.number-wrapper>p {
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 20px;
+    color: #242426;
+}
+
+.number-wrapper__enter {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 392px;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.number-wrapper__enter>select {
+    padding: 8px 0px 8px 16px;
+    width: 80px;
+    border: none;
+    border-bottom: 1px solid #E2E4E5;
+    appearance: none;
+    background: url(resources/ico/arrow.png) no-repeat right center;
+}
+
+.number-wrapper__enter>input {
+    padding: 8px 16px;
+    width: 296px;
+    border: none;
+    border-bottom: 1px solid #E2E4E5;
+}
+
+.btn-send {
+    width: 137px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #242731;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #BBBFC1;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        gap: 48px;
+    }
+
+    .wrapper {
+        margin: 0;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px 8px 8px 24px;
+        gap: 16px;
+        height: 64px;
+    }
+
+    .main {
+        margin: 0;
+        align-items: center;
+    }
+
+    .title-wrapper {
+        margin-top: 39px;
+        margin-bottom: 32px;
+    }
+
+    .title-wrapper>h1, .title-wrapper>p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .number-wrapper {
+        border: none;
+    }
+}
