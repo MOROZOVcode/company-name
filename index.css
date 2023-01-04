@@ -209,6 +209,10 @@ h1 {
         margin-top: 39px;
         margin-bottom: 32px;
     }
+    
+    .title-wrapper>p {
+        text-align: center;
+    }
 
     .title-wrapper>h1, .title-wrapper>p {
         display: flex;
