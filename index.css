@@ -115,6 +115,10 @@ h1 {
 	cursor: pointer;
 }
 
+form {
+	max-width: 100%;
+}
+
 .number-wrapper {
 	width: 100%;
 	display: flex;
@@ -224,5 +228,9 @@ h1 {
 
 	.number-wrapper {
 		border: none;
+	}
+
+	.btn-send {
+		margin-left: 32px;
 	}
 }
