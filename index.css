@@ -77,7 +77,6 @@ header {
 	flex-direction: column;
 	gap: 16px;
 	margin-top: 80px;
-	align-items: center;
 }
 
 h1 {
@@ -86,9 +85,7 @@ h1 {
 	color: #242731;
 }
 
-
 .title-wrapper>p {
-	text-align: center;
 	font-family: 'Roboto';
 	font-weight: 300;
 	line-height: 22px;
@@ -155,7 +152,6 @@ h1 {
 
 .number-wrapper__enter>input {
 	padding: 8px 16px;
-	/* width: 296px; */
 	width: 100%;
 	border: none;
 	border-bottom: 1px solid #E2E4E5;
