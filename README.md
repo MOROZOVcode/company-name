@@ -10,6 +10,8 @@
 
 ---
 
+> В моём личном блоге есть [_**пост**_](https://t.me/morozov_code/49) об этом сайте.
+
 > Открыть сайт можно по ссылке: [morozovcode.github.io/company-name](https://morozovcode.github.io/company-name/)
 
 > Запуск проекта:
